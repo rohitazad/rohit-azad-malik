@@ -1,9 +1,10 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 
 const ContactPage = ()=>{
     const form = useRef();
-
+    let [loading, setLoading] = useState(false);
+    
     const sendEmail = (e) => {
         e.preventDefault();
         //console.log('e', e.target.user_name.value)
@@ -14,13 +15,16 @@ const ContactPage = ()=>{
         }else if(e.target.user_message.value === ''){
             alert('Please fill some text')
         }else {
+            setLoading(loading = true);
             emailjs.sendForm('service_x1mrlzg', 'template_6d8awfn', form.current, 'BsEgyi4UDs535wZxa')
                 .then((result) => {
-                    console.log(result.text);
+                   // console.log(result.text);
+                   setLoading(loading = false);
                     e.target.reset()
-                    alert('Thank you so much. I appreciate your guidance.')
+                    alert('Thank you so much. Your message has been received, We will contact you soon.')
                 }, (error) => {
                     console.log(error.text);
+                    setLoading(loading = false);
             });
         }
     };
@@ -42,12 +46,25 @@ const ContactPage = ()=>{
 
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="returnmessage"
-                                data-success="Your message has been received, We will contact you soon."></div>
-                            <div className="empty_notice">
-                                <span>Please Fill Required Fields</span>
-                            </div>
+                                data-success=""></div>
+                            
+                            {
+                                loading ? <div className="newLoading">
+                                <div className="loading">
+                                    <div className="loader">
+                                        <div className="loader__bar"></div>
+                                        <div className="loader__bar"></div>
+                                        <div className="loader__bar"></div>
+                                        <div className="loader__bar"></div>
+                                        <div className="loader__bar"></div>
+                                        <div className="loader__ball"></div>
+                                    </div>
+                                    <p>please wait...</p>
+                                </div>
+                            </div> : ''
+                            }
+                            
 
-                           
                             <div className="relative z-0 w-full mt-[40px] mb-8 group">
                                 <input type="text" id="name" name="user_name"
                                     className="block autofill:bg-transparent py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent  border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#FF6464] peer"
