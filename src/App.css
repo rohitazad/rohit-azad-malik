@@ -3389,6 +3389,18 @@ video {
 .customelogo{
   height: 60px;
 }
+.socialShareIcon {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.socialShareIcon .appShare{display: block;}
 .fs-0{font-size: 0;}
 .myheadermenu .text-base{min-width: 18px;}
 .myheadermenu{min-width: 612px;}

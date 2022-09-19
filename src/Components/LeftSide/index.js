@@ -114,6 +114,7 @@ const LeftSideCompnent = ()=>{
                         {/* dowanload button == */}
                         <button className="dowanload-btn">
                             <img className="mr-3" src={Dowanload} alt="icon" /> Download CV </button>
+                        
                     </div>
                 </div>
             </div>

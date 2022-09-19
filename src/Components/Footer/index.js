@@ -1,7 +1,15 @@
-import React  from 'react';
+import React, { useState, useEffect }  from 'react';
+import ShareAppComponent from '../ShareApp';
 
 
 const FooterComponent = ()=>{
+    let  [showApp, setShowApp] = useState(false);
+    const  checkPWA = ()=>{
+        return navigator && navigator.share ? setShowApp(true) : setShowApp(false);
+    }
+    useEffect(()=>{
+        checkPWA()
+    })
     return (
         <>
             <div className="horizontal-footer shadow-footer">
@@ -60,6 +68,10 @@ const FooterComponent = ()=>{
                     </div>
                 </div>
             </div>
+            {
+                showApp ? <ShareAppComponent /> : ''
+            }
+            
         </>
     )
 }
