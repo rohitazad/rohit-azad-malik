@@ -7,7 +7,7 @@ const ShareAppComponent = ()=>{
         //   ? document.querySelector("link[rel=canonical]").href
         //   : document.location.href;
         const url = document.location.href;
-        const text = document.title;
+        const text = 'R.A.M - React Js PWA site with App Social ';
       
         if (navigator.share) {
           navigator
