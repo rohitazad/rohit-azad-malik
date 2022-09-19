@@ -3394,7 +3394,12 @@ video {
   right: 20px;
   bottom: 20px;
   padding: 10px;
-  background: rgba(0,0,0,0.3);
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #FA5252;
+    --tw-gradient-to: rgb(250 82 82 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #DD2476;
   border-radius: 10px;
   font-size: 14px;
   font-weight: bold;

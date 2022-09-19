@@ -3,10 +3,11 @@ import React from 'react';
 const ShareAppComponent = ()=>{
     const onShare = ()=> {
         const title = document.title;
-        const url = document.querySelector("link[rel=canonical]")
-          ? document.querySelector("link[rel=canonical]").href
-          : document.location.href;
-        const text = "Learn how to use the share api";
+        // const __url = document.querySelector("link[rel=canonical]")
+        //   ? document.querySelector("link[rel=canonical]").href
+        //   : document.location.href;
+        const url = document.location.href;
+        const text = document.title;
       
         if (navigator.share) {
           navigator
