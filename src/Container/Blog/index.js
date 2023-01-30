@@ -4,8 +4,8 @@ import SingleBlogCardComponent from '../../Components/SingleBlogCard'
 
 const BlogPage = ()=>{
     let [blogData, setBlogData] = useState([]);
-    const blogId = '7614125466045882583';
-    const blogKey = 'AIzaSyCoKCX68GJGPjJu2Ai9NuO_4YibkvAfxCQ';
+    const blogId = '';
+    const blogKey = '';
     const url = `https://www.googleapis.com/blogger/v3/blogs/${blogId}/posts?key=${blogKey}`;
     const fetchDataBlog = async ()=>{
         const {data} =  await axios.get(url);
@@ -48,14 +48,4 @@ const BlogPage = ()=>{
 
 export default BlogPage;
 
-
-// https://developers.google.com/blogger/docs/3.0/using
-
-// https://www.googleapis.com/blogger/v3/blogs/7614125466045882583?key=AIzaSyCoKCX68GJGPjJu2Ai9NuO_4YibkvAfxCQ
-
-// Get  all blog
-// https://www.googleapis.com/blogger/v3/blogs/7614125466045882583/posts?key=AIzaSyCoKCX68GJGPjJu2Ai9NuO_4YibkvAfxCQ
-
-// Get specific blog with id
-// https://www.googleapis.com/blogger/v3/blogs/7614125466045882583/posts/7432329223390667054?key=AIzaSyCoKCX68GJGPjJu2Ai9NuO_4YibkvAfxCQ
 
