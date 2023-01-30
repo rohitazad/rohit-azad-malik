@@ -1,0 +1,249 @@
+{
+    "about":[
+        {
+            "title":"मैं एक उपयोगकर्ता इंटरफ़ेस डेवलपर हूँ, जिससे किसी 12 साल की अनुभव है। मैं कटिंग एड्ज, रिच उपयोगकर्ता इंटरफ़ेस के साथ प्यासन के साथ काम करना पसंद करता हूँ और सुझावी कोडिंग स्टैंडर्ड और W3C वेब स्टैंडर्ड को ध्यान में रखता हूँ।"
+        },
+        {
+            "title":"मेरी रोजगार की अनुभव शामिल है कि मैंने 2011 के जून से कंपर इन्फोबेस लिमिटेड के साथ HTML डेवलपर के रूप में काम किया है और वर्तमान में 2015 के जून से टाइम्स इंटरनेट के साथ SR. यूआई डेवलपर के रूप में काम कर रहे हैं।. मैंने अपने प्रबंधकों, स्टेकहोल्डर्स और ग्राहकों को अपनी विश्वास की सफलता प्राप्त की और शीघ्र ही सभी शिफ्ट्स पर काम करने लगा और प्रबंधक की अस्थिरता के दौरान भरने लगा।"
+        },
+        {
+            "title":"CSS, JavaScript, XHTML, React Js का उपयोग करके टेबल-लेस वेब पेजेज को हाथ से कोडिंग का अनुभव करना, वेबसाइटों पर नियमित रूप से रखरखाव, सुधार और अपडेट करना, टेबल-लेस वेबसाइटों, ई-मेलर्स, ई-न्यूज़लेटर्स, प्रमोशन बैनर्स (वेब) आदि को अच्छी तरह से समझना, Bootstrap, LESS CSS Framework, HTML5, Css3, JavaScript, Jquery, React Js के साथ सम्बन्धित कुछ अच्छे ज्ञान के साथ, Dreamweaver, Photoshop के साथ पूर्ण क्षमता, क्रॉस ब्राउज़र कम्पेटिबिलिटी समस्याओं को समझने की शक्ति, SEO को समझने के साथ सख्त समझ।"
+        }
+    ],
+    "what_i_do":[
+        {
+            "web_development":"मैं एक सकारात्मक, उत्साही और सक्षम वेब डेवलपर हूं, जिसने 12 वर्षों में कौशल, गुणों और विशेषताओं की एक विविध श्रेणी का निर्माण किया है जो गारंटी देता है कि मैं इस भूमिका में अत्यधिक प्रदर्शन करूंगा। मेरे पास समय के प्रति संवेदनशील, चुनौतीपूर्ण वेब विकास परियोजनाओं पर अकेले और एक टीम के हिस्से के रूप में काम करने का व्यापक अनुभव है, जिसके लिए उत्कृष्ट रचनात्मक और तकनीकी क्षमताओं की आवश्यकता होती है और यह सुनिश्चित करने की क्षमता है कि सभी कार्य प्लेटफार्मों की एक विस्तृत श्रृंखला में अनुकूलित हैं। मैं एक वेब डेवलपर के रूप में अपने काम को गंभीरता से लेता हूं और इसका मतलब है कि मैं हमेशा यह सुनिश्चित करता हूं कि इस तेजी से बदलते उद्योग में मेरे कौशल को अपडेट रखा जाए। यदि आप मुझे अपने वेब डेवलपर के रूप में नियुक्त करते हैं, तो मैं आपको विश्वास दिलाता हूं कि मैं आपकी टीम में जल्दी से फिट हो जाऊंगा, मैं हमेशा आपके व्यवसाय की व्यावसायिक जरूरतों को अपने हर काम में सबसे आगे रखूंगा, और जो काम मैं करता हूं वह पहले के अनुरूप होगा"
+        },
+        {
+            "managment":"संपूर्ण सॉफ़्टवेयर विकास जीवनचक्र की निगरानी के लिए विश्लेषणात्मक, डिज़ाइन और तकनीकी कौशल को लागू करने के लिए निरंतर समस्या समाधानकर्ता। स्थापित और स्टार्ट-अप फर्मों के लिए बिक्री वृद्धि और विपणन रणनीति का विश्लेषण करने के लिए विकासशील अनुप्रयोगों में उत्कृष्ट सफलता के साथ प्रभावी व्यावहारिक नेता।"
+        }
+    ],
+    "personal_info":{
+        "name":"रोहित आजाद",
+        "profile":"यूआई/रिएक्टजेएस/जावास्क्रिप्ट डेवलपर",
+        "phone":"+91- 991000-6711",
+        "email":"ram9953878727@gmail.com",
+        "location":"दिल्ली, भारत",
+        "dob":"अगस्त, 1987",
+        "cv_link": ""
+    },
+    "experience":[
+        {
+            "job_title":"सीनियर यूआई (फ्रंट एंड डेवलपर (रिएक्ट जेएस, जावास्क्रिप्ट))",
+            "company":"टाइम्स इंटरनेट",
+            "dates":"जून-2015 से अब तक",
+            "responsibilities":[
+                "एचटीएमएल, सीएसएस, जावास्क्रिप्ट और जेक्वेरी का उपयोग करके उत्तरदायी वेब अनुप्रयोगों का विकास और रखरखाव करें।",
+                "एपीआई के साथ एकीकृत करने और सहज उपयोगकर्ता अनुभव सुनिश्चित करने के लिए बैक-एंड डेवलपर्स के साथ सहयोग करें।",
+                "उपयोगकर्ता सहभागिता और रूपांतरण दरों को बेहतर बनाने के लिए डिज़ाइन और प्रयोज्य सर्वोत्तम प्रथाओं को लागू करें।",
+                "वेबसाइट के प्रदर्शन को बेहतर बनाने के लिए नवीनतम फ्रंट-एंड तकनीकों और रुझानों के साथ अद्यतित रहें।"
+            ]
+        },
+        {
+            "job_title":"सीनियर यूआई सलाहकार डेवलपर",
+            "company":"विन्सियर प्राइवेट लिमिटेड",
+            "dates":"अगस्त-2014 मई-2015",
+            "responsibilities":[
+                "Develop and maintain"
+            ]
+        },
+        {
+            "job_title":"यूआई डेवलपर",
+            "company":"एचसेंटिव प्राइवेट लिमिटेड",
+            "dates":"फरवरी-2013 अगस्त-2014",
+            "responsibilities":[
+                "Develop and maintain"
+            ]
+        },
+        {
+            "job_title":"अग्रणी डेवलपर",
+            "company":"ओफियो टेक्नोलॉजीज प्रा। लिमिटेड",
+            "dates":"मार्च-2012 जनवरी-2013",
+            "responsibilities":[
+                "Develop and maintain"
+            ]
+        },
+        {
+            "job_title":"एचटीएमएल डेवलपर",
+            "company":"इन्फोबेस लिमिटेड",
+            "dates":"जून-2011 फरवरी-2012",
+            "responsibilities":[
+                "Develop and maintain"
+            ]
+        }
+    ],
+    "education":[
+        {
+            "degree": "स्नातकोत्तर",
+            "school": "मास्टर डिग्री फील्ड ऑफ स्टडी पॉलिटिकल साइंस, (एमडीयू रोहतक हरियाणा)",
+            "dates": "जुलाई-2012"
+        },
+        {
+            "degree": "स्नातक स्तर की पढ़ाई",
+            "school": "कला स्नातक (बीए) अध्ययन कला क्षेत्र (दिल्ली विश्वविद्यालय",
+            "dates": "2010"
+        },
+        {
+            "degree": "सीनियर सेकेंडरी स्कूल | दिल्ली, नई दिल्ली (भारत)",
+            "school": "केंद्रीय माध्यमिक शिक्षा बोर्ड",
+            "dates": "2006"
+        }
+    ],
+    "knowledges": [
+        "एचटीएमएल/एचटीएमएल5",
+        "सीएसएस/सीएसएस3",
+        "जावास्क्रिप्ट",
+        "jQuery",
+        "React Js",
+        "Node Js",
+        "ES-6",
+        "Bootstrap",
+        "SASS",
+        "Git",
+        "उत्तरदायी आकार",
+        "SEO",
+        "XSLT",
+        "XML",
+        "Ajax",
+        "PWA"
+    ],
+    "working_skills":[
+        {
+            "title":"JavaScript",
+            "percent":"70%"
+        },
+        {
+            "title":"Web App",
+            "percent":"85%"
+        },
+        {
+            "title":"Responsive",
+            "percent":"85%"
+        },
+        {
+            "title":"React Js",
+            "percent":"70%"
+        },
+        {
+            "title":"Next Js",
+            "percent":"40%"
+        }
+    ],
+    "copytext":"2023 ©. रोहित आजाद. R.A.M द्वारा विकसित और डिज़ाइन किया गया",
+    "socialLink":[
+        {
+            "socialname":"facebook",
+            "socialtext":"follow on facebook",
+            "sociallink":"https://www.facebook.com/rohitazadmalik/"
+        },
+        {
+            "socialname":"linkedin-in",
+            "socialtext":"follow on linkedin",
+            "sociallink":"https://www.linkedin.com/in/rohitazad/"
+        },
+        {
+            "socialname":"twitter",
+            "socialtext":"follow on twitter",
+            "sociallink":"https://twitter.com/rohitazad"
+        },
+        {
+            "socialname":"stack-overflow",
+            "socialtext":"follow on stackoverflow",
+            "sociallink":"https://stackoverflow.com/users/1365428/rohit-azad-malik"
+        },
+        {
+            "socialname":"blogger",
+            "socialtext":"follow on blogspot",
+            "sociallink":"https://rohitazadmalik.blogspot.com/"
+        },
+        {
+            "socialname":"github",
+            "socialtext":"follow on github",
+            "sociallink":"https://github.com/rohitazad"
+        },
+        {
+            "socialname":"youtube",
+            "socialtext":"follow on youtube",
+            "sociallink":"https://www.youtube.com/c/AzadMalikRohit"
+        }
+    ],
+    "portfolio":[
+        {
+            "id":1,
+            "title":"एंटरटेनमेंट का बाप ",
+            "description":"एपीआई कॉलिंग के साथ रिएक्ट जेएस एपीपी और टैग और खोज के साथ डेटा फ़िल्टर करें।",
+            "time":"अगस्त-2022",
+            "url":"https://tv-movie-react-app.netlify.app/",
+            "imageUrl":"entertainment.jpg",
+            "type":"reactjs",
+            "authorName":"रोहित आजाद",
+            "sourceCodeUrl":"https://github.com/rohitazad/tv-movie-react-app/tree/master"
+        },
+        {
+            "id":2,
+            "title":"रेड्यूसर शॉपिंग एपीपी के साथ संदर्भ एपीआई",
+            "description":"रिएक्ट जेएस कॉन्टेक्स्ट एपीआई रिड्यूसर शॉपिंग एपीपी क्रिएट के साथ",
+            "time":"सितम्बर-2022",
+            "url":"https://react-ecommerce-contextapi.netlify.app/",
+            "imageUrl":"contextapiapp.jpg",
+            "type":"reactjs",
+            "authorName":"रोहित आजाद",
+            "sourceCodeUrl":"https://github.com/rohitazad/ecommerce-react-app"
+        },
+        {
+            "id":3,
+            "title":"रिएक्ट जेएस क्विज हब",
+            "description":"React js QUIZ HUB ऐप एपीआई और रटर के साथ बनाया गया है",
+            "time":"सितम्बर-2022",
+            "url":"https://quiz-hub-react.netlify.app/",
+            "imageUrl":"quizhubapp.jpg",
+            "type":"reactjs",
+            "authorName":"रोहित आजाद",
+            "sourceCodeUrl":"https://github.com/rohitazad/quiz-hub-reactjs/tree/master"
+        },
+        {
+            "id":4,
+            "title":"रिएक्ट जेएस कैलकुलेटर",
+            "description":"रिएक्ट जेएस टैक्स/लोन कैलकुलेटर",
+            "time":"Feb-2020",
+            "url":"https://rohitazad.github.io/banking-react-app/#/",
+            "imageUrl":"calculatorapp.jpg",
+            "type":"reactjs",
+            "authorName":"रोहित आजाद",
+            "sourceCodeUrl":"https://github.com/rohitazad/banking-react-app"
+        },
+        {
+            "id":5,
+            "title":"रिएक्ट जेएस एटीएम मनी डिस्पेंसर",
+            "description":"रिएक्ट जेएस एटीएम मनी डिस्पेंसर कैलकुलेटर",
+            "time":"सितंबर-2019",
+            "url":"https://rohitazad.github.io/atm-money-dispenser/",
+            "imageUrl":"atmmoneydispenserr.jpg",
+            "type":"reactjs",
+            "authorName":"रोहित आजाद",
+            "sourceCodeUrl":"https://github.com/rohitazad/atm-money-dispenser"
+        },
+        {
+            "id":6,
+            "title":"रिएक्ट जेएस डिजिटल क्लॉक",
+            "description":"रिएक्ट जेएस डिजिटल क्लॉक",
+            "time":"Feb-2019",
+            "url":"https://rohitazad.github.io/clock_reactjs/",
+            "imageUrl":"digitalclock.jpg",
+            "type":"reactjs",
+            "authorName":"रोहित आजाद",
+            "sourceCodeUrl":"https://github.com/rohitazad/clock_reactjs"
+        },
+        {
+            "id":7,
+            "title":"रामधारी सिंह दिनकर: याचना नहीं, अब रण होगा",
+            "description":"React js Digital Clock",
+            "time":"मार्च-2022",
+            "url":"https://rohitazadmalik.blogspot.com/search/label/Kids%20Knowledge",
+            "imageUrl":"krishan.jpg",
+            "type":"genralKnowledge",
+            "authorName":"रोहित आजाद",
+            "sourceCodeUrl":""
+        }
+    ]
+}

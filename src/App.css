@@ -3872,3 +3872,10 @@ padding-top: 100px;
       transform: scale(1, 1);
   }
 }
+.langWrap{
+  padding: 0.80rem;
+  border-radius: 0.375rem;
+  font-size: .8125rem;
+    font-weight: 500;
+    outline: none;
+}

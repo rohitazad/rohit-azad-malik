@@ -1,5 +1,8 @@
 import React from 'react';
 
+
+
+
 import Icon  from '../../images/icon.svg';
 import Icon1  from '../../images/icon1.svg';
 import Icon2  from '../../images/icon2.svg';
@@ -8,6 +11,7 @@ import Icon4  from '../../images/icon4.svg';
 import Icon5  from '../../images/icon5.svg';
 
 const AboutPage = ()=>{
+    
     return (
         <>
         

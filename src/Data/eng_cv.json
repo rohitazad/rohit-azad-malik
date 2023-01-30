@@ -1,0 +1,249 @@
+{
+    "about":[
+        {
+            "title":"I'm a User Interface Developer with about 12 years of experience. I like to work with passion for building cutting-edge, rich user interface with a nice coding standard and keep W3C web-standard in mind."
+        },
+        {
+            "title":"My employment experience includes worked from the June 2011 as a HTML Developer with Compare Infobase Limited and currently working with Times Internet as an Sr. UI Developer since June 2015. I earned the trust of my managers, stakeholders and clients & was soon working all shifts and filling in during the manager’s absence."
+        },
+        {
+            "title":"Experience of hand coding table-less web pages for using CSS, JavaScript, XHTML, React Js Performing regular maintenance, corrections and updates on the websites Good Understanding of Table less Websites, e-Mailers, e-Newsletters, Promotion Banners (Web) etc. Bootstrap, LESS CSS Framework, HTML5, Css3, JavaScript, Jquery, React Js Good knowledge of Dreamweaver, Photoshop. 100% capable in Cross Browser Compatibilities issues. Strong understanding of SEO concepts"
+        }
+    ],
+    "what_i_do":[
+        {
+            "web_development":"I am a positive, enthusiastic and competent Web Developer who, 12 over the years, has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly in this role. I have extensive experience working both alone and as part of a team on often time-sensitive, challenging web development projects that require outstanding creative and technical capabilities and the ability to ensure all work is optimized across a wide range of platforms. I take my work as a Web Developer seriously and this means I always ensure my skills are kept up to date within this rapidly changing industry. If you hire me as your Web Developer, I assure you I will fit into your team quickly, I will always put the commercial needs of your business at the forefront of everything I do, and the work I carry out will be consistent to a first-class standard."
+        },
+        {
+            "managment":"Relentless problem solver applying analytical, design, and technical skills to supervise entire software development lifecycle. Effective hands-on leader with outstanding success in developing applications to analyze sales growth and marketing strategy for established and start-up firms."
+        }
+    ],
+    "personal_info":{
+        "name":"Rohit Azad",
+        "profile":"UI/ReactJs/JavaScript Developer",
+        "phone":"+91- 991000-6711",
+        "email":"ram9953878727@gmail.com",
+        "location":"Delhi, India",
+        "dob":"Aug, 1987",
+        "cv_link": ""
+    },
+    "experience":[
+        {
+            "job_title":"Sr. UI (Front end developer (React Js, Javascript))",
+            "company":"Times Internet",
+            "dates":"Jun-2015 Till-now",
+            "responsibilities":[
+                "Develop and maintain responsive web applications using HTML, CSS, JavaScript, and jQuery.",
+                "Collaborate with back-end developers to integrate with API's and ensure seamless user experience.",
+                "Implement design and usability best practices to improve user engagement and conversion rates.",
+                "Stay up-to-date with the latest front-end technologies and trends to improve website performance."
+            ]
+        },
+        {
+            "job_title":"Sr. UI Consultant developer",
+            "company":"Wincere PVT Limited",
+            "dates":"Aug-2014 May-2015",
+            "responsibilities":[
+                "Develop and maintain"
+            ]
+        },
+        {
+            "job_title":"UI developer",
+            "company":"hCentive PVT Limited",
+            "dates":"Feb-2013 Aug-2014",
+            "responsibilities":[
+                "Develop and maintain"
+            ]
+        },
+        {
+            "job_title":"Front End Developer",
+            "company":"Ophio Technologies PVT. Ltd.",
+            "dates":"Mar-2012 Jan-2013",
+            "responsibilities":[
+                "Develop and maintain"
+            ]
+        },
+        {
+            "job_title":"Html developer",
+            "company":"Compare InfoBase Limited",
+            "dates":"Jun-2011 Feb-2012",
+            "responsibilities":[
+                "Develop and maintain"
+            ]
+        }
+    ],
+    "education":[
+        {
+            "degree": "Post Graduation",
+            "school": "Master's Degree Field Of Study Political Science, (MDU Rohtak Haryana)",
+            "dates": "Jul-2012"
+        },
+        {
+            "degree": "Graduation",
+            "school": "Bachelor of Arts (B.A.) Field Of Study Art (Delhi University)",
+            "dates": "2010"
+        },
+        {
+            "degree": "Sr. secondary school | Delhi, New Delhi (India)",
+            "school": "Central Board of Secondary Education",
+            "dates": "2006"
+        }
+    ],
+    "knowledges": [
+        "HTML/HTML5",
+        "Css/Css3",
+        "JavaScript",
+        "jQuery",
+        "React Js",
+        "Node Js",
+        "ES-6",
+        "Bootstrap",
+        "SASS",
+        "Git",
+        "Responsive Design",
+        "SEO",
+        "XSLT",
+        "XML",
+        "Ajax",
+        "PWA"
+    ],
+    "working_skills":[
+        {
+            "title":"JavaScript",
+            "percent":"70%"
+        },
+        {
+            "title":"Web App",
+            "percent":"85%"
+        },
+        {
+            "title":"Responsive",
+            "percent":"85%"
+        },
+        {
+            "title":"React Js",
+            "percent":"70%"
+        },
+        {
+            "title":"Next Js",
+            "percent":"40%"
+        }
+    ],
+    "copytext":"2023 ©. Rohit Azad. Developed and Designed by R.A.M",
+    "socialLink":[
+        {
+            "socialname":"facebook",
+            "socialtext":"follow on facebook",
+            "sociallink":"https://www.facebook.com/rohitazadmalik/"
+        },
+        {
+            "socialname":"linkedin-in",
+            "socialtext":"follow on linkedin",
+            "sociallink":"https://www.linkedin.com/in/rohitazad/"
+        },
+        {
+            "socialname":"twitter",
+            "socialtext":"follow on twitter",
+            "sociallink":"https://twitter.com/rohitazad"
+        },
+        {
+            "socialname":"stack-overflow",
+            "socialtext":"follow on stackoverflow",
+            "sociallink":"https://stackoverflow.com/users/1365428/rohit-azad-malik"
+        },
+        {
+            "socialname":"blogger",
+            "socialtext":"follow on blogspot",
+            "sociallink":"https://rohitazadmalik.blogspot.com/"
+        },
+        {
+            "socialname":"github",
+            "socialtext":"follow on github",
+            "sociallink":"https://github.com/rohitazad"
+        },
+        {
+            "socialname":"youtube",
+            "socialtext":"follow on youtube",
+            "sociallink":"https://www.youtube.com/c/AzadMalikRohit"
+        }
+    ],
+    "portfolio":[
+        {
+            "id":1,
+            "title":"Entertainment Ka Baap ",
+            "description":"React Js APP with api calling and filter data with tag and search.",
+            "time":"Aug-2022",
+            "url":"https://tv-movie-react-app.netlify.app/",
+            "imageUrl":"entertainment.jpg",
+            "type":"reactjs",
+            "authorName":"rohit azad",
+            "sourceCodeUrl":"https://github.com/rohitazad/tv-movie-react-app/tree/master"
+        },
+        {
+            "id":2,
+            "title":"Context API with Reducer Shopping APP",
+            "description":"React js Context API with Reducer Shopping APP  Create",
+            "time":"Sep-2022",
+            "url":"https://react-ecommerce-contextapi.netlify.app/",
+            "imageUrl":"contextapiapp.jpg",
+            "type":"reactjs",
+            "authorName":"rohit azad",
+            "sourceCodeUrl":"https://github.com/rohitazad/ecommerce-react-app"
+        },
+        {
+            "id":3,
+            "title":"React Js QUIZ HUB",
+            "description":"React js QUIZ HUB App created with API and Ruter used",
+            "time":"Sep-2022",
+            "url":"https://quiz-hub-react.netlify.app/",
+            "imageUrl":"quizhubapp.jpg",
+            "type":"reactjs",
+            "authorName":"rohit azad",
+            "sourceCodeUrl":"https://github.com/rohitazad/quiz-hub-reactjs/tree/master"
+        },
+        {
+            "id":4,
+            "title":"React js  Calculator",
+            "description":"React js Tax/Loan Calculator",
+            "time":"Feb-2020",
+            "url":"https://rohitazad.github.io/banking-react-app/#/",
+            "imageUrl":"calculatorapp.jpg",
+            "type":"reactjs",
+            "authorName":"rohit azad",
+            "sourceCodeUrl":"https://github.com/rohitazad/banking-react-app"
+        },
+        {
+            "id":5,
+            "title":"React js  ATM Money Dispenser",
+            "description":"React js ATM Money Dispenser Calculator",
+            "time":"Sep-2019",
+            "url":"https://rohitazad.github.io/atm-money-dispenser/",
+            "imageUrl":"atmmoneydispenserr.jpg",
+            "type":"reactjs",
+            "authorName":"rohit azad",
+            "sourceCodeUrl":"https://github.com/rohitazad/atm-money-dispenser"
+        },
+        {
+            "id":6,
+            "title":"React js  Digital Clock",
+            "description":"React js Digital Clock",
+            "time":"Feb-2019",
+            "url":"https://rohitazad.github.io/clock_reactjs/",
+            "imageUrl":"digitalclock.jpg",
+            "type":"reactjs",
+            "authorName":"rohit azad",
+            "sourceCodeUrl":"https://github.com/rohitazad/clock_reactjs"
+        },
+        {
+            "id":7,
+            "title":"रामधारी सिंह दिनकर: याचना नहीं, अब रण होगा",
+            "description":"React js Digital Clock",
+            "time":"Mar-2022",
+            "url":"https://rohitazadmalik.blogspot.com/search/label/Kids%20Knowledge",
+            "imageUrl":"krishan.jpg",
+            "type":"genralKnowledge",
+            "authorName":"rohit azad",
+            "sourceCodeUrl":""
+        }
+    ]
+}

@@ -2,14 +2,40 @@ import React, { useState }  from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../../images/logo.png';
 import { useLocation } from "react-router-dom";
-
+import { useDispatch } from 'react-redux';
+import { loadData } from '../../ReduxStore/Actions/actionCreater';
+import engDataJson  from '../../Data/eng_cv.json';
+import hindDataJson from '../../Data/hind_cv.json';
+import gujRatDataJson from '../../Data/guj_cv.json';
+import sanskrit from '../../Data/sanskrit_cv.json';
+import bhojpuri from '../../Data/bhojpuri_cv.json';
 const HeaderComponent = ()=>{
+    //const cvData = useSelector(state=> state);
+    const dispatch = useDispatch()
+    //console.log('cvData',cvData)
     const location = useLocation();
     const { pathname } = location;
     const splitLocation = pathname.split("/");
     let [showmobileMenu, setShowmobileMenu] = useState(false);
     const menuHandleChange = ()=>{
         return setShowmobileMenu(showmobileMenu = !showmobileMenu)
+    }
+    const changeLang = (e)=>{
+        //console.log('clicik button change language', e.target.value);
+        let langVal = e.target.value
+        if(langVal === 'eng'){
+            dispatch(loadData(engDataJson))
+        }else if(langVal === 'hindi'){
+            dispatch(loadData(hindDataJson))
+        }else if(langVal === 'guj'){
+            dispatch(loadData(gujRatDataJson))
+        }else if(langVal === 'sanskrit'){
+            dispatch(loadData(sanskrit))
+        }else if(langVal === 'bhojpuri'){
+            dispatch(loadData(bhojpuri))
+        }else{
+            dispatch(loadData(engDataJson))
+        }
     }
     return (
         <>
@@ -71,6 +97,15 @@ const HeaderComponent = ()=>{
                                         <i className="fa-solid fa-address-book"></i>
                                     </span> Contact
                                 </Link>
+                            </li>
+                            <li>
+                                <select className='langWrap' onChange={(e)=>changeLang(e)}>
+                                    <option value="eng">Eng</option>
+                                    <option value="hindi">Hindi</option>
+                                    <option value="sanskrit">Sanskrit</option>
+                                    <option value="guj">Gujarati</option>
+                                    <option value="bhojpuri">Bhojpuri</option>
+                                </select>
                             </li>
                         </ul>
                     </nav>
