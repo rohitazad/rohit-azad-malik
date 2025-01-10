@@ -72,6 +72,13 @@ const HeaderComponent = ()=>{
                                     </span> Contact
                                 </Link>
                             </li>
+                            <li>
+                                <Link className={splitLocation[1] === 'trisul' ? 'menu-item-two-active' : 'menu-item-two'} to="/trisul">
+                                    <span className="mr-2 text-base">
+                                    <i class="fa-solid fa-torii-gate"></i>
+                                    </span> Trisul
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
 
