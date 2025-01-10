@@ -9,6 +9,7 @@ import ResumePage from '../Container/Resume';
 import BlogPage from '../Container/Blog';
 import WorkPage from  '../Container/Work';
 import ContactPage from '../Container/Contact';
+import Trisul from "../Container/Trisul";
 
 const RouterDom = (props)=>{
     return(
@@ -27,6 +28,7 @@ const RouterDom = (props)=>{
                                 <Route path="/work" element={<WorkPage />}></Route>
                                 <Route path="/blog" element={<BlogPage />}></Route>
                                 <Route path="/contact" element={<ContactPage />}></Route>
+                                <Route path="/trisul" element={<Trisul />}></Route>
                             </Routes>
                         </div>
                     </div>

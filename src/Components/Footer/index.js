@@ -63,7 +63,7 @@ const FooterComponent = ()=>{
                                 
                                 
                             </ul>
-                            <p className="copyright-text mt-3 ">2022 ©. Rohit Azad. Developed and Designed by <b>R.A.M</b></p>
+                            <p className="copyright-text mt-3 ">2025 ©. Rohit Azad. Developed and Designed by <b>R.A.M</b></p>
                         </div>
                     </div>
                 </div>

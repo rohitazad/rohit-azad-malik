@@ -22,7 +22,7 @@ const LeftSideCompnent = ()=>{
                         <h2 className="mt-6 mb-1 text-[26px] font-semibold dark:text-white"> Rohit Azad </h2>
                         <h3
                             className="mb-4  inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]">
-                            UI/ReactJs/JavaScript Developer </h3>
+                            Nodejs, NextJs, ReactJs, JavaScript Developer </h3>
                         <div className="flex justify-center space-x-3">
                             {/* facebook icon and link */}
                             <a href="https://www.facebook.com/rohitazadmalik/" target="_blank" rel="noopener noreferrer">
