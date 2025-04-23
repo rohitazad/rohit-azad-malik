@@ -11,10 +11,11 @@ import WorkPage from  '../Container/Work';
 import ContactPage from '../Container/Contact';
 import Trisul from "../Container/Trisul";
 
-const RouterDom = (props)=>{
-    return(
+const RouterDom = (props) => {
+    return (
         <>
         <div className="bg-homeBg dark:bg-homeTwoBg-dark min-h-screen bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
+            
             <Router>
                 <HeaderComponent />
                 <div className="container containerAll mt100Media grid grid-cols-12 md:gap-10 justify-between lg:mt-[220px]">
