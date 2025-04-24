@@ -1,4 +1,4 @@
-import React, { useState }  from 'react';
+import React, { useState, useEffect, useRef }  from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../../images/logo.png';
 import { useLocation } from "react-router-dom";
@@ -11,9 +11,30 @@ const HeaderComponent = ()=>{
     const menuHandleChange = ()=>{
         return setShowmobileMenu(showmobileMenu = !showmobileMenu)
     }
+    const audioRef = useRef(null);
+
+    useEffect(() => {
+        const playAudio = () => {
+            if (audioRef.current) {
+                audioRef.current.play().catch((err) => {
+                    console.log("Audio autoplay failed:", err);
+                });
+            }
+        };
+
+        // Wait for user click
+        document.addEventListener('click', playAudio, { once: true });
+
+        return () => {
+            document.removeEventListener('click', playAudio);
+        };
+    }, []);
     return (
         <>
-
+            <audio style={{'display':'none'}} ref={audioRef} autoPlay loop onPlay={() => console.log("Audio is playing")} onError={() => console.log("Audio failed to play")}>
+                <source src="https://www.rohitazad.com/mp3/rohitcoiding.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
         <div className="container">    
             <header className="flex justify-between items-center fixed top-0 left-0 w-full lg:static z-[1111111111]">
                     <div className="flex justify-between w-full px-4 lg:px-0 bg-[#F3F6F6] lg:bg-transparent dark:bg-black">
@@ -75,7 +96,7 @@ const HeaderComponent = ()=>{
                             <li>
                                 <Link className={splitLocation[1] === 'trisul' ? 'menu-item-two-active' : 'menu-item-two'} to="/trisul">
                                     <span className="mr-2 text-base">
-                                    <i class="fa-solid fa-torii-gate"></i>
+                                    <i className="fa-solid fa-torii-gate"></i>
                                     </span> Trisul
                                 </Link>
                             </li>
